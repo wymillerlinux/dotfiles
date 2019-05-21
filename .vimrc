@@ -40,7 +40,7 @@ set background=dark
 set laststatus=2
 set mouse=a
 set number
-map <C-n> :NERDTreeFocus<CR>
+map <C-d> :NERDTreeFocus<CR>
 
 syntax on
 colorscheme gruvbox
