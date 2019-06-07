@@ -1,7 +1,8 @@
 cat /etc/motd | lolcat
 
 tmux new-session -s wyatt_m 
-wal -i $HOME/Pictures/frog-prince.jpg
+# Install pywal from pip, and then use the -i flag to set your own path to your picture
+wal -i $HOME/Pictures/rocket.jpg
 
 alias ls="ls -lahi --color=auto --group-directories-first"
 alias l="ls -lahi --color=auto --group-directories-first"
@@ -11,5 +12,5 @@ alias rvm="bash -c 'rvm'"
 alias ps="ps aux"
 alias shit="source /home/wyatt/.config/fish/config.fish"
 export GOPATH=/home/wyatt/Source/go
-export PATH="/home/wyatt/:/home/wyatt/.luarocks/:/home/wyatt/.cargo/bin:$GOPATH/bin:$PATH"
+export PATH="/home/wyatt/:/home/wyatt/.luarocks/:/home/wyatt/.cargo/bin:/home/wyatt/Source/scripts:$GOPATH/bin:$PATH"
 
