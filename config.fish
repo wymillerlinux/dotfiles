@@ -12,5 +12,5 @@ alias rvm="bash -c 'rvm'"
 alias ps="ps aux"
 alias shit="source /home/wyatt/.config/fish/config.fish"
 export GOPATH=/home/wyatt/Source/go
-export PATH="/home/wyatt/:/home/wyatt/.luarocks/:/home/wyatt/.cargo/bin:/home/wyatt/Source/scripts:$GOPATH/bin:$PATH"
+export PATH="$HOME:$HOME/.luarocks/:$HOME/.cargo/bin:$HOME/Source/scripts:$GOPATH/bin:$PATH"
 
